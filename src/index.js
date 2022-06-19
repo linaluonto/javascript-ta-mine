@@ -1,6 +1,24 @@
 // complete the function
 function prime (num) {
-  // code goes here
+  if (number <= 1) {
+
+    return false;
+
+  } else {
+
+    for (let i = 2; i < number; i++) {
+
+      if (number % i == 0) {
+
+        return false;
+
+      }
+
+    }
+
+    return true;
+
+  }
 }
 
 function solution (arg) {
